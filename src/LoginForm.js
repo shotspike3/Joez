@@ -4,6 +4,8 @@ import InputField from './InputField';
 import SubmitButton from './SubmitButton';
 import UserStore from './stores/UserStore';
 
+import './App.css';
+
 
 class LoginForm extends react.Component{
 
@@ -76,8 +78,8 @@ class LoginForm extends react.Component{
   render(){
   return (
     <div className="loginForm">
-      
-      Log in
+
+      <center>Log in</center>
       <InputField
         type='text'
         placeholder ='Username'

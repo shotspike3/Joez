@@ -4,6 +4,7 @@ body, html, #root, .app, .container {
 
   height: 100vh;
 
+  justify-content: center;
 }
 
 
@@ -106,4 +107,7 @@ body, html, #root, .app, .container {
 
  cursor: pointer;
 
+}
+.joez{
+  left:100vh;
 }

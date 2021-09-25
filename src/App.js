@@ -5,6 +5,7 @@ import UserStore from './stores/UserStore';
 import LoginForm from './LoginForm';
 import SubmitButton from './SubmitButton';
 import { observer } from 'mobx-react';
+import joez from'./Joezdotgov.png';
 
 class App extends react.Component{
   //methods to handle logging in and out
@@ -96,6 +97,7 @@ class App extends react.Component{
       return (
         <div className="App">
           <div className='container'>
+          <img className='joez' src={joez}/>
             <LoginForm/>
             
           </div>
